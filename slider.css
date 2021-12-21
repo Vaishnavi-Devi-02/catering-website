@@ -1,0 +1,157 @@
+#outerbox{
+  width:100%;
+  overflow:hidden;
+  background: white;
+}
+#sliderbox1{
+  position: relative;
+  width:7600px;
+  animation: viva1 25s infinite;
+}
+#sliderbox1 img{
+  float: left;
+}
+@keyframes viva1 {
+  0%{
+    left:0px;
+  }
+  16%{
+    left:0px;
+  }
+  20%{
+    left:-1520px;
+  }
+  36%{
+    left:-1520px;
+  }
+  40%{
+    left:-3040px;
+  }
+  56%{
+    left:-3040px;
+  }
+  60%{
+    left:-4560px;
+  }
+  76%{
+    left:-4560px;
+  }
+  80%{
+    left:-6080px;
+  }
+  0%{
+    left:0px;
+  }
+  16%{
+    left:0px;
+  }
+  20%{
+    left:-1520px;
+  }
+  36%{
+    left:-1520px;
+  }
+  40%{
+    left:-3040px;
+  }
+  56%{
+    left:-3040px;
+  }
+  60%{
+    left:-4560px;
+  }
+  76%{
+    left:-4560px;
+  }
+  80%{
+    left:-6080px;
+  }
+  96%{
+    left:-6080px;
+  }
+  100%{
+    left:-6080px;
+  }
+}
+@media screen and (max-width:600px) {
+  .glide{
+    width:100%;
+    height:200px;
+  }
+  #outerbox{
+    width:100%;
+    overflow:hidden;
+  }
+  #sliderbox1{
+    position: relative;
+    width:3000px;
+    animation: viva1 25s infinite;
+  }
+  #sliderbox1 img{
+    float: left;
+    width:600px;
+    height:200px;
+  }
+  @keyframes viva1 {
+    0%{
+      left:0px;
+    }
+    16%{
+      left:0px;
+    }
+    20%{
+      left:-600px;
+    }
+    36%{
+      left:-600px;
+    }
+    40%{
+      left:-1200px;
+    }
+    56%{
+      left:-1200px;
+    }
+    60%{
+      left:-1800px;
+    }
+    76%{
+      left:-1800px;
+    }
+    80%{
+      left:-2400px;
+    }
+    0%{
+      left:0px;
+    }
+    16%{
+      left:0px;
+    }
+    20%{
+      left:-600px;
+    }
+    36%{
+      left:-600px;
+    }
+    40%{
+      left:-1200px;
+    }
+    56%{
+      left:-1200px;
+    }
+    60%{
+      left:-1800px;
+    }
+    76%{
+      left:-1800px;
+    }
+    80%{
+      left:-2400px;
+    }
+    96%{
+      left:-2400px;
+    }
+    100%{
+      left:-2400px;
+    }
+  }
+}

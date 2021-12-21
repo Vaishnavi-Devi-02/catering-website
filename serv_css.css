@@ -1,0 +1,161 @@
+.fimg{
+  width:100%;
+  height:40%;
+}
+.table10{
+  width:100%;
+  height: 100%;
+  border: 2px solid black;
+  border-style: dotted;
+  padding: 2px;
+}
+@font-face {
+  font-family: head1;
+  src:url("BerkshireSwash-Regular.ttf");
+}
+.headtxt{
+  font-family: head1;
+  font-size:50px;
+  border: 2px solid black;
+  border-style: dotted;
+  text-align: center;
+  color:#f08080;
+}
+@font-face {
+  font-family: head2;
+  src:url("BigShouldersStencilDisplay-Bold.ttf");
+}
+.headtxt1{
+  font-family: head2;
+  font-size:30px;
+  border: 2px solid black;
+  border-style: dotted;
+  text-align: center;
+  color:black;
+}
+.slider{
+  width: 800px;
+  height: 600px;
+  border: 2px solid black;
+  border-style: dotted;
+  background: url(PICS/event1.jpg);
+  margin:100px auto;
+  animation: slide 20s infinite;
+}
+@keyframes slide{
+  25%{
+    background: url(PICS/event1.jpg);
+  }
+  50%{
+    background: url(PICS/2event2.jpg);
+  }
+  75%{
+    background: url(PICS/3event3.jpg);
+  }
+  100%{
+    background: url(PICS/4event4.jpg);
+  }
+
+}
+.slider1{
+  width: 800px;
+  height: 600px;
+  border: 2px solid black;
+  border-style: dotted;
+  background: url(PICS/11.png);
+  margin:100px auto;
+  animation: slide1 20s infinite;
+}
+@keyframes slide1{
+  25%{
+    background: url(PICS/11.png);
+  }
+  50%{
+    background: url(PICS/22.jpg);
+  }
+  75%{
+    background: url(PICS/33.jpg);
+  }
+  100%{
+    background: url(PICS/44.jpg);
+  }
+
+}
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+  .table10{
+    width:100%;
+    height: 20%;
+    border: 2px solid black;
+    border-style: dotted;
+    padding: 2px;
+  }
+.slider{
+  width: 200px;
+  height: 250px;
+  background: url(PICS/small_event1.jpg);
+  margin:100px auto;
+  animation: slide 20s infinite;
+}
+@keyframes slide{
+  25%{
+    background: url(PICS/small_event1.jpg);
+  }
+  50%{
+    background: url(PICS/small_2event2.jpg);
+  }
+  75%{
+    background: url(PICS/small_3event3.jpg);
+  }
+  100%{
+    background: url(PICS/small_4event4.jpg);
+  }
+
+}
+.slider1{
+  width: 200px;
+  height: 250px;
+  //border: 2px solid black;
+  background: url(PICS/small_11.png);
+  margin:100px auto;
+  animation: slide1 20s infinite;
+}
+@keyframes slide1{
+  25%{
+    background: url(PICS/small_11.png);
+  }
+  50%{
+    background: url(PICS/small_22.jpg);
+  }
+  75%{
+    background: url(PICS/small_33.jpg);
+  }
+  100%{
+    background: url(PICS/small_44.jpg);
+  }
+
+}
+.headtxt{
+  font-family: head1;
+border: 2px solid black;
+border-style: dotted;
+height: 50px;
+  font-size:35px;
+  text-align: center;
+  color:#f08080;
+}
+.headtxt1{
+  font-family: head2;
+border: 2px solid black;
+border-style: dotted;
+height: 100px;
+  font-size:25px;
+  text-align: center;
+  color:black;
+}
+}

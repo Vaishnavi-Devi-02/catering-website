@@ -1,0 +1,89 @@
+@font-face {
+  font-family: v;
+  src:url("Lobster-Regular.ttf");
+}
+.he{
+  font-family: v;
+  font-size:40px;
+  color:#blacl;
+  position: relative;
+  left:100px;
+  top:10px;
+}
+.fimg{
+  width:100%;
+  height:40%;
+}
+.row{
+  width:100%;
+  background-color: white;
+  height: 300px;
+
+}
+.column {
+float: left;
+margin-left: 100px;
+margin-top: 30px;
+//position: relative;
+//top:10px;
+//left:60px;
+
+}
+.column img {
+opacity: 0.8;
+cursor: pointer;
+}
+.column img:hover {
+opacity: 1;
+}
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+.container {
+position: relative;
+display: none;
+background-color: White;
+
+}
+#imgtext {
+position: absolute;
+bottom: 15px;
+left: 15px;
+color: black;
+font-size: 20px;
+}
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+@media screen and (max-width:600px) {
+  .row{
+    width:100%;
+    background-color: white;
+    height: 300px;
+  }
+  .column{
+    width:150px;
+    height:100px;
+    float: left;
+    overflow: hidden;
+    margin-left: 30px;
+    margin-top: 20px;
+
+  }
+  .he{
+    font-family: v;
+    font-size:40px;
+    color:#blacl;
+    position: relative;
+    left:30px;
+    top:10px;
+  }
+}

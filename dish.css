@@ -1,0 +1,114 @@
+.round{
+  background:white;
+  width: 100%;
+  height:110px;
+  align-self:center;
+  justify-self:center;
+  position: relative;
+  //left:180px;
+}
+.td{
+  width:170px;
+  height: 50px;
+  //border: 2px solid black;
+  padding: 15px;
+  font-size: 25px;
+}
+.tb{
+  width: 100%;
+}
+#orbit1{
+  position: relative;
+  top:15px;
+  left:50px;
+  height:50px;
+  width:50px;
+  border-radius:50%;
+  //border:5px solid black;
+  animation: spin 1.5s forwards;
+}
+#actual1{
+  transform: translate(-35px,25px);
+}
+#orbit2{
+  //position: relative;
+  top:-30px;
+  left:50px;
+  height:50px;
+  width:50px;
+  border-radius:50%;
+  //border:5px solid black;
+  animation: spin 1s forwards;
+}
+#actual2{
+  transform:translate(-100px,45px);
+}
+#actualpo{
+  transform:translate(-70px,45px);
+}
+#actualmar{
+  transform:translate(-70px,45px);
+}
+#actualguj{
+  transform:translate(-70px,45px);
+}
+span{
+  display: inline-block;
+  //border: 2px solid black;
+
+}
+.abc{
+  transform: scale(-1,-1);
+  //border: 2px solid black;
+}
+.img1{
+  border-radius: 50%;
+  border:10px solid yellow;
+  transform: scaleY(-1);
+}
+@keyframes spin {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(180deg);
+  }
+}
+
+
+@media screen and (max-width:600px) {
+  .round{
+    width:100%;
+    height:30px;
+    position: relative;
+    top:20px;
+    //border: 2px solid black;
+  }
+  .img1{
+    width: 80px;
+    border-radius: 50%;
+    border:5px solid yellow;
+    transform: scaleY(-1);
+    position: relative;
+    top:-65px;
+    right:-70px;
+  }
+  .abc{
+    transform: scale(-0.5,-0.5);
+    position: relative;
+    top:-40px;
+    right:-50px;
+  }
+
+  .td{
+    width:170px;
+    height: 50px;
+    //border: 2px solid black;
+    padding: 15px;
+    font-size: 25px;
+    position: relative;
+    top:-150px;
+    right:5px;
+  }
+
+}

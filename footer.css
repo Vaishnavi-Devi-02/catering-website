@@ -1,0 +1,18 @@
+.footerTable{
+  padding:15px;
+  margin-left: 60px;
+}
+
+.footer{
+  width: 100%;
+  background: #ffffff;
+  background:white;
+  height: 140px;
+}
+@media screen and (max-width:600px) {
+  .footer td{
+    position: relative;
+    left:-35px;
+
+  }
+}

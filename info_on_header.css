@@ -1,0 +1,41 @@
+.welcome{
+  width:100%;
+  background:white;
+}
+.buttonStyle{
+  background-color: #ff9d1b;
+  height: 40px;
+  width:200px;
+  border: none;
+  font-size: 20px;
+}
+@font-face {
+  font-family: va;
+  src:url("Lobster-Regular.ttf");
+}
+.wtxt{
+  font-family: va;
+  font-size:40px;
+  text-align: center;
+  background: white;
+  width: 100%;
+}
+
+@font-face {
+  font-family: v1;
+  src:url("Amiri-Regular.ttf");
+}
+.wlcmtxt1{
+  font-family: v1;
+  padding: 20px;
+  font-size:20px;
+  text-align: center;
+  color:#ff9d1b;
+}
+.wlcmtxt2{
+  font-family: v1;
+  padding: 10px;
+  font-size:20px;
+  text-align: center;
+  color:black;
+}

@@ -1,0 +1,52 @@
+@font-face {
+  font-family: head1;
+  src:url("Lobster-Regular.ttf");
+}
+.headtxt{
+  font-family: head1;
+  font-size:50px;
+  text-align: center;
+  color:#f08080;
+}
+.imgbig{
+  background-image: url(PICS/e3.jpg);
+}
+.txttable{
+  font-size: 20px;
+  font-family: va;
+  border:2px solid black;
+  border-style: dotted;
+  color: white;
+
+}
+.addtable{
+  width: 100%;
+  padding: 0;
+  background: grey;
+  height: 400px;
+}
+.fitable {
+  background: #ff7f50;
+  border:2px solid black;
+  border-style: dotted;
+  font-size: 20px;
+  font-family: va;
+  color: white;
+}
+.adiv{
+  position: relative;
+  left:300px;
+  width:50%;
+}
+
+@media screen and (max-width:600px) {
+.imgbig{
+  background-image: url(PICS/bgcup1.jpg);
+}
+.adiv{
+  position: relative;
+  left:0px;
+  width:100%;
+    padding: 20px;
+}
+}

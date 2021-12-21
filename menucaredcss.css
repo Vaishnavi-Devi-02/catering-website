@@ -1,0 +1,119 @@
+.fimg{
+  width:100%;
+  height:40%;
+}
+@font-face {
+  font-family: v;
+  src:url("Lobster-Regular.ttf");
+}
+@font-face {
+  font-family: v1;
+  src:url("Amiri-Regular.ttf");
+}
+.std{
+  font-family: v1;
+  font-size:30px;
+  color:black;
+}
+.tbl1{
+  width:70%;
+  height:50%;
+  padding: 10px;
+  //border: 2px solid black;
+}
+.tbl3{
+  width:70%;
+  height:30%;
+  padding: 10px;
+  //border: 2px solid black;
+}
+.tbl4{
+  width:70%;
+  height:35%;
+  padding: 10px;
+  //border: 2px solid black;
+}
+.tbl2{
+  width:70%;
+  height:20%;
+  padding: 10px;
+  //border: 2px solid black;
+}
+.tbl{
+  width:70%;
+  height:10%;
+  padding: 10px;
+  //border: 2px solid black;
+}
+.content5{
+  width:30%;
+  height:20%;
+  border: 2px solid black;
+  border-style: dotted;
+  text-align:center;
+  font-family: v1;
+  font-size:20px;
+  color:black;
+}
+.heading{
+  width:70%;
+  height:10%;
+  //border: 2px solid black;
+  text-align: center;
+  font-family: v;
+  font-size:40px;
+  color:white;
+  background: #ff7f50;
+}
+@media screen and (max-width:600px) {
+  .tbl1{
+    width:100%;
+    height:50%;
+    //padding: 10px;
+    //border: 2px solid black;
+  }
+  .tbl3{
+    width:100%;
+    height:30%;
+    //padding: 10px;
+    //border: 2px solid black;
+  }
+  .tbl4{
+    width:100%;
+    height:35%;
+    //padding: 10px;
+    //border: 2px solid black;
+  }
+  .tbl2{
+    width:100%;
+    height:20%;
+    //padding: 10px;
+    //border: 2px solid black;
+  }
+  .tbl{
+    width:100%;
+    height:10%;
+    //padding: 10px;
+    //border: 2px solid black;
+  }
+  .heading{
+    width:100%;
+    height:10%;
+    //border: 2px solid black;
+    text-align: center;
+    font-family: v;
+    font-size:40px;
+    color:white;
+    background: #ff7f50;;
+  }
+  .content5{
+    width:30%;
+    height:20%;
+    border: 2px solid black;
+    border-style: dotted;
+    text-align:center;
+    font-family: v1;
+    font-size:15px;
+    color:black;
+  }
+}

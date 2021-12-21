@@ -1,0 +1,187 @@
+.row{
+  width:100%;
+  background-color: #894c16;
+  height: 300px;
+
+}
+.column {
+float: left;
+position: relative;
+top:10px;
+left:20px;
+margin-left: 30px;
+
+}
+.column img {
+opacity: 0.8;
+cursor: pointer;
+}
+.column img:hover {
+opacity: 1;
+}
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+.container {
+position: relative;
+display: none;
+background-color: White;
+
+}
+#imgtext {
+position: absolute;
+bottom: 15px;
+left: 15px;
+color: black;
+font-size: 20px;
+}
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+@font-face {
+  font-family: vaish12;
+  src:url("Amiri-Regular.ttf");
+}
+.def{
+  font-size: 25px;
+  color: white;
+  font-family: vaish12;
+  position: relative;
+  top:8px;
+  left:70px;
+}
+#smallboxphoto1{
+  width:230px;
+  height:200px;
+  overflow:hidden;
+  float: left;
+  //border:5px solid black;
+  transition:0.2s ease;
+  animation: photos1 0.2s forwards ;
+}
+#smallboxphoto2{
+  width:230px;
+  height:200px;
+  overflow:hidden;
+  float: left;
+  //border:5px solid black;
+  transition:0.2s ease;
+  animation: photos1 0.2s 0.2s forwards ;
+}
+#smallboxphoto3{
+  width:230px;
+  height:200px;
+  overflow:hidden;
+  float: left;
+  //border:5px solid black;
+  transition:0.2s ease;
+  animation: photos3 0.2s 0.4s forwards ;
+}
+#smallboxphoto4{
+  width:230px;
+  height:200px;
+  overflow:hidden;
+  float: left;
+  //border:5px solid black;
+  transition:0.2s ease;
+  animation: photos4 0.2s 0.6s forwards ;
+}
+#smallboxphoto5{
+  width:230px;
+  height:200px;
+  overflow:hidden;
+  float: left;
+  //border:5px solid black;
+  transition:0.2s ease;
+  animation: photos5 0.2s 0.8s forwards ;
+}
+#smallboxphoto6{
+  width:230px;
+  height:200px;
+  overflow:hidden;
+  float: left;
+  //border:5px solid black;
+  transition:0.2s ease;
+  animation: photos6 0.2s 1.0s forwards ;
+}
+@keyframes photos1 {
+  0%{
+    transform:scale(0);
+  }
+  100%
+  {
+    transform:scale(1);
+  }
+}
+@keyframes photos2 {
+  0%{
+    transform:scale(0);
+  }
+  100%
+  {
+    transform:scale(1);
+  }
+}
+@keyframes photos3 {
+  0%{
+    transform:scale(0);
+  }
+  100%
+  {
+    transform:scale(1);
+  }
+}
+@keyframes photos4 {
+  0%{
+    transform:scale(0);
+  }
+  100%
+  {
+    transform:scale(1);
+  }
+}
+@keyframes photos5 {
+  0%{
+    transform:scale(0);
+  }
+  100%
+  {
+    transform:scale(1);
+  }
+}
+@keyframes photos6 {
+  0%{
+    transform:scale(0);
+  }
+  100%
+  {
+    transform:scale(1);
+  }
+}
+@media screen and (max-width:600px) {
+  .row{
+    width:100%;
+    background-color: #894c16;
+    height: 300px;
+  }
+  .column{
+    width:150px;
+    height:100px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    left:5px;
+margin-left: 50px;
+margin-top: 20px;
+  }
+  .def{
+    left:40px;
+  }
+}
